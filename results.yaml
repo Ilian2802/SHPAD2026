@@ -1,0 +1,167 @@
+- model: LogisticRegression
+- model: LogisticRegression
+  f1_score: 0.6785923203253303
+- model: LogisticRegression
+  f1_score: 0.6711133328265425
+  C: 2
+- model: LogisticRegression
+  f1_score: 0.6752013305322129
+  C: 1.5
+- model: LogisticRegression
+  f1_score: 0.6821834675842653
+  C: 0.8
+- model: LogisticRegression
+  f1_score: 0.68367931063879
+  C: 0.5
+- model: LogisticRegression
+  f1_score: 0.6834984371849162
+  C: 0.3
+- model: LogisticRegression
+  f1_score: 0.6842633928571429
+  C: 0.1
+- model: LogisticRegression
+  f1_score: 0.6809675312864338
+  C: 0.1
+  n_gramm: (2, 2)
+- model: LogisticRegression
+  f1_score: 0.6809675312864338
+  C: 0.1
+  n_gramm: (1, 2)
+- model: LogisticRegression
+  f1_score: 0.6738839671453563
+  C: 1
+  n_gramm: (1, 2)
+- model: LogisticRegression
+  f1_score: 0.6511304191643654
+  C: 1
+  n_gramm: (2, 2)
+- model: LogisticRegression
+  f1_score: 0.647614856416382
+  C: 2
+  n_gramm: (2, 2)
+- model: LogisticRegression
+  f1_score: 0.5456875517676385
+  C: 0.01
+  n_gramm: (2, 2)
+- model: LogisticRegression
+  f1_score: 0.6261195245074092
+  C: 0.1
+  n_gramm: (2, 2)
+- model: LinearSVC
+  f1_score: 0.6494055937882411
+  C: 1
+  n_gramm: (1, 1)
+  dual: 'False'
+- model: LinearSVC
+  f1_score: 0.6451536841942376
+  C: 2
+  n_gramm: (1, 1)
+  dual: 'False'
+- model: LinearSVC
+  f1_score: 0.6436607744712197
+  C: 3
+  n_gramm: (1, 1)
+  dual: 'False'
+- model: LinearSVC
+  f1_score: 0.6704967175327861
+  C: 1
+  n_gramm: (1, 2)
+  dual: 'False'
+- model: LinearSVC
+  f1_score: 0.6689900712064989
+  C: 0.5
+  n_gramm: (1, 2)
+  dual: 'False'
+- model: LinearSVC
+  f1_score: 0.6689900712064989
+  C: 0.3
+  n_gramm: (1, 2)
+  dual: 'False'
+- model: LinearSVC
+  f1_score: 0.6698591352577334
+  C: 0.3
+  n_gramm: (1, 2)
+  dual: 'False'
+- model: LinearSVC
+  f1_score: 0.6703243042464619
+  C: 0.1
+  n_gramm: (1, 2)
+  dual: 'False'
+- model: LinearSVC
+  f1_score: 0.6454097639473704
+  C: 1
+  n_gramm: (2, 2)
+  dual: 'False'
+- model: LinearSVC
+  f1_score: 0.6454097639473704
+  C: 1
+  n_gramm: (2, 2)
+  dual: 'False'
+- model: LinearSVC
+  f1_score: 0.6441114441114442
+  C: 0.5
+  n_gramm: (2, 2)
+  dual: 'False'
+- model: LinearSVC
+  f1_score: 0.6401979205017202
+  C: 0.3
+  n_gramm: (2, 2)
+  dual: 'False'
+- model: LinearSVC
+  f1_score: 0.6464087603225557
+  C: 0.1
+  n_gramm: (2, 2)
+  dual: 'False'
+- model: LinearSVC
+  f1_score: 0.6464087603225557
+  C: 0.1
+  n_gramm: (2, 2)
+  dual: 'True'
+- model: RandomForestClassifier
+  f1_score: 0.36775491215587547
+  n_estimators: 100
+- model: RandomForestClassifier
+  f1_score: 0.3675790521912093
+  n_estimators: 10
+- model: RandomForestClassifier
+  f1_score: 0.5472004395669536
+  n_estimators: 10
+  max_depth: 100
+- model: RandomForestClassifier
+  f1_score: 0.44990444189975054
+  n_estimators: 50
+  max_depth: 50
+- model: GradientBoostingClassifier
+  f1_score: 0.3662710460943969
+  n_estimators: 10
+  max_depth: 3
+  learning_rate: 0.05
+- model: ComplementNB
+  f1_score: 0.6598426248390671
+  alpha: 0.8
+  norm: false
+- model: ComplementNB
+  f1_score: 0.6602475521387057
+  alpha: 0.8
+  norm: false
+- model: ComplementNB
+  f1_score: 0.6580724411540122
+  alpha: 0.8
+  norm: false
+- model: ComplementNB
+  f1_score: 0.6615801659288992
+  alpha: 0.8
+  norm: false
+- model: ComplementNB
+  f1_score: 0.6615801659288992
+  norm: false
+- model: ComplementNB
+  f1_score: 0.6615801659288992
+  norm: false
+- model: ComplementNB
+  f1_score: 0.7024579565078806
+  norm: false
+- model: ComplementNB
+  f1_score: 0.7060286801287678
+  norm: false
+  n_gramm: (1, 2)
