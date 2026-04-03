@@ -165,3 +165,7 @@
   f1_score: 0.7060286801287678
   norm: false
   n_gramm: (1, 2)
+- model: ComplementNB
+  f1_score: 0.2847720654059192
+  norm: false
+  n_gramm: (1, 2)
